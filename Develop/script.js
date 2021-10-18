@@ -8,7 +8,6 @@ $("#currentDay").html(moment().format("dddd MMMM, Do"));
 let thisPage = function() {
     
     setTasks = JSON.parse(localStorage.getItem('toDo'));
-    console.log(setTasks); 
 
 };
 
